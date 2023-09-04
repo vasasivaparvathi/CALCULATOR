@@ -1,0 +1,35 @@
+.bgcolor {
+    background-colour:aqua;
+    padding: 200px;
+    padding-left: 37%;
+}
+.btn {
+    height: 50px;
+    width: 60px;
+    border-radius:20px;
+    text-decoration:blink;
+    
+    
+}
+.input {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: right;
+    font-size: 25px;
+    font-size:20px;
+    border-color:burlywood;
+}
+.bgborder {
+    border: 1px solid:yellowgreen;
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: gray;
+    box-shadow:200px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: pink;
+    transform: scale(1.1);
+}

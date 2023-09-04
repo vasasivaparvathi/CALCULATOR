@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="caluclator.css" />
+    <script src="caluclator.js"></script>
+</head>
+<body class="bgcolor">
+    <div class="bgborder">
+        <center>
+        <div>
+            <div>
+                <input type="text" id="result" readonly class="input"/>
+            </div>
+            <button class="btn" onclick="Appandnum('7')">7</button>
+            <button class="btn" onclick="Appandnum('8')">8</button>
+            <button class="btn" onclick="Appandnum('9')">9</button>
+            <button class="btn" onclick="operator1('+')">+</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="Appandnum('4')">4</button>
+            <button class="btn" onclick="Appandnum('5')">5</button>
+            <button class="btn" onclick="Appandnum('6')">6</button>
+            <button class="btn" onclick="operator1('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="Appandnum('1')">1</button>
+            <button class="btn" onclick="Appandnum('2')">2</button>
+            <button class="btn" onclick="Appandnum('3')">3</button>
+            <button class="btn" onclick="operator1('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="clear1()">AC</button>
+            <button class="btn" onclick="operator1('*')">*</button>
+            <button class="btn" onclick="operator1('%')">%</button>
+            <button class="btn" onclick="calculator('=')">=</button>
+        </div>
+            </center>
+    </div>
+</body>
+</html>
